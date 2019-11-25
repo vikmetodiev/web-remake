@@ -7,6 +7,8 @@ import classnames from 'classnames';
 
 import OnePiece from "./Animes/OnePiece/OnePiece.js"
 import Naruto from "./Animes/Naruto/Naruto.js"
+import Bleach from "./Animes/Bleach/Bleach.js"
+import ShamanKing from "./Animes/ShamanKing/ShamanKing.js"
 const Animes = () => {
     const [activeTab, setActiveTab] = useState('1');
 
@@ -95,10 +97,10 @@ const Animes = () => {
                 </TabPane>
 
                 <TabPane tabId="3">
-
+                    <Bleach />
                 </TabPane>
                 <TabPane tabId="4">
-
+                    <ShamanKing />
                 </TabPane>
             </TabContent>
         </Container>

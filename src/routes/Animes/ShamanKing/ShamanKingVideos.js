@@ -1,12 +1,10 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-
-
-class NarutoVideos extends React.Component {
+class ShamanKingVideos extends React.Component {
     render() {
         return (
             <Container className="text-center">
-                <h1 style={{ color: "azure" }}>Naruto AMV's</h1>
+                <h1 style={{ color: "azure" }}>One Piece AMV's</h1>
                 <h2 style={{ color: "azure" }}>1st Page</h2>
                 <Row >
                     <Col md="4" sm="12" xs="12"><iframe width="100%" height="215" src="https://www.youtube.com/embed/8vJcG7lPnDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video"></iframe></Col>
@@ -26,4 +24,4 @@ class NarutoVideos extends React.Component {
         )
     }
 }
-export default NarutoVideos 
+export default ShamanKingVideos 

@@ -4,18 +4,17 @@ function NarutoStory() {
     return (
         <Container className="backImg3">
             <h1 style={{ color: "azure" }}>Naruto Story</h1>
-                <h2 className="onePieceStory">One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized
-                    in Shueisha's Weekly Shōnen Jump magazine since July 22, 1997, and has been collected into 94 tankōbon volumes.
-                    The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after
-                    unintentionally eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates, Luffy explores the
-                    Grand Line in search of the world's ultimate treasure known as "One Piece" in order to become the next King of the
-                    Pirates. The manga spawned a media franchise, having been adapted into a festival film produced by Production I.G,
-                    and an anime series produced by Toei Animation, which began broadcasting in Japan in 1999. Additionally,
-                    Toei has developed thirteen animated feature films, one original video animation and thirteen television specials.
-                    Several companies have developed various types of merchandising and media, such as a trading card game and numerous video games.
-                    The manga series was licensed for an English language release in North America and the United Kingdom by Viz Media and in Australia
-                    by Madman Entertainment. The anime series was licensed by 4Kids Entertainment for an English-language release in North America in 2004,
-                before the license was dropped and subsequently acquired by Funimation in 2007.</h2>
+                <h2 className="onePieceStory">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. 
+                It tells the story of Naruto Uzumaki, a young ninja who seeks to gain recognition from his peers and also dreams of 
+                becoming the Hokage, the leader of his village. The story is in two parts, the first set in Naruto's pre-teen years, 
+                and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri, 
+                which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).
+
+                Naruto was serialized in Shueisha's magazine, Weekly Shōnen Jump from 1999 to 2014, and released in tankōbon (book)
+                 form in 72 volumes. The manga was adapted into an anime television series produced by Pierrot and Aniplex,
+                  which broadcast 220 episodes in Japan from 2002 to 2007; the English adaptation of the series aired on 
+                  Cartoon Network from 2005 to 2009. Naruto: Shippuden, a sequel to the original series, premiered in 
+                  Japan in 2007, and ended in 2017, after 500 episodes.</h2>
                 <br/>
 
         </Container>
