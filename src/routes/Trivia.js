@@ -1,7 +1,7 @@
 import React from "react"
 import axios from "axios"
 import swal from 'sweetalert'
-import { Button, ButtonGroup, Progress, Container, Card, CardBody, Alert } from 'reactstrap';
+import { Button, ButtonGroup, Progress, Container, Card, CardBody } from 'reactstrap';
 const FIFTY_HELP = "FIFTYFIFTY";
 const CALL_FRIEND = "CALLFRIEND";
 const AUDIENCE_HELP = "AUDIENCEHELP"
@@ -167,7 +167,7 @@ class Trivia extends React.Component {
         const levels_test = Levels.map((ar, index) => {
             let isPast = this.state.current > index;
             let isCurrent = this.state.current === index;
-            return (<p style={{padding:"0 10px",textAlign:"center",backgroundColor: "#3c3c3c", borderRadius: 15, color: isPast || isCurrent ? "greenyellow" : "inherit", textDecoration: isPast ? "line-through" : "inherit" }} key={index}>${ar}</p>)
+            return (<p style={{ padding: "0 10px", textAlign: "center", backgroundColor: "#3c3c3c", borderRadius: 15, color: isPast || isCurrent ? "greenyellow" : "inherit", textDecoration: isPast ? "line-through" : "inherit" }} key={index}>${ar}</p>)
         }).reverse();
         let answersJSX = answers.map((answer, i) => {
             let clickHandler = () => { };
@@ -178,7 +178,7 @@ class Trivia extends React.Component {
                 clickHandler = this.wrongClick;
             }
             return <div>
-                <Button className="button" style={{color:"GoldenRod", backgroundColor: "azure ", cursor: "pointer", borderRadius: 15, height: "auto", width: "100%", fontSize: 18, margin: 5 }} color="secondary" onClick={clickHandler} id="curs"> {this.decodeHTMLEntities(answer.answer)}</Button>
+                <Button className="button" style={{ color: "GoldenRod", backgroundColor: "azure ", cursor: "pointer", borderRadius: 15, height: "auto", width: "100%", fontSize: 18, margin: 5 }} color="secondary" onClick={clickHandler} id="curs"> {this.decodeHTMLEntities(answer.answer)}</Button>
             </div>
         })
         let jokers = this.state.jokers.map((joker) => {
@@ -224,14 +224,15 @@ class Trivia extends React.Component {
                                         <h5 className="question" >
                                             {this.decodeHTMLEntities(tester[current])}
                                         </h5>
-                                    </Container></Container>
-                                <div className="text-center" style={{ marginRight: 25 }}><ButtonGroup size="sm">{answersJSX[0]} {answersJSX[1]}  </ButtonGroup><br />
+                                    </Container>
+                                </Container>
+                                <div className="text-center triviaButtons" style={{ marginRight: 25 }}><ButtonGroup size="sm">{answersJSX[0]} {answersJSX[1]}  </ButtonGroup><br />
                                     <ButtonGroup size="sm" >{answersJSX[2]}{answersJSX[3]}  </ButtonGroup>
                                     <br /><br />
                                     <ButtonGroup >{jokers}</ButtonGroup></div>
                                 <br /><br />
 
-                                <h3 className="levels" style={{fontSize:30}}>Progress</h3>
+                                <h3 className="levels" style={{ fontSize: 30 }}>Progress</h3>
 
                                 <Progress color="warning" value={this.state.current * 100 / 15} />
                             </Container>

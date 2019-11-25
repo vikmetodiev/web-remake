@@ -69,6 +69,12 @@ code {
   background-size:contain;
   text-align: center;
 }
+
+.onePieceButtons{
+  background-color:green !important;
+  color:wheat !important;
+}
+
 @media(max-width:1023px){
   .mediaFontSize{
     font-size:12px;
@@ -83,3 +89,4 @@ code {
     width:100% !important;
   }
 }
+

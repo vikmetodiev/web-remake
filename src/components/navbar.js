@@ -17,6 +17,9 @@ const OnePiece = lazy(() => import('../routes/Animes/OnePiece/OnePiece.js'))
 const OPStory = lazy(() => import('../routes/Animes/OnePiece/OPStory.js'))
 const OPVideos = lazy(() => import('../routes/Animes/OnePiece/OPVideos.js'))
 const Todo = lazy(() => import("../routes/TodoList.js"))
+const SecondVideos = lazy(() => import("../routes/Animes/OnePiece/SecondVideos.js"))
+const ThirdVideos = lazy(() => import("../routes/Animes/OnePiece/ThirdVideos.js"))
+const FourthVideos = lazy(() => import("../routes/Animes/OnePiece/FourthVideos.js"))
 function Navbar() {
     return (
         <div>
@@ -47,6 +50,9 @@ function Navbar() {
                             <Route path="/Services" component={Services} />
                             <Route path="/Animes" component={Animes} />
                             <Route path="/Games" component={Games} />
+                            <Route path="/SecondVideos" component={SecondVideos} />
+                            <Route path="/ThirdVideos" component={ThirdVideos} />
+                            <Route path="/FourthVideos" component={FourthVideos} />
                         </Switch>
                     </Suspense>
                 </Router>

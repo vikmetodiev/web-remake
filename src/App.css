@@ -31,7 +31,6 @@
 .stage{
   float:right;
   margin-right:-5px;
-  margin-top:-45px;
   position: relative;
 	list-style: none;
 	padding: -20px;
@@ -136,18 +135,42 @@
     text-shadow: azure 2px 1px;
 }
 
-@media(max-width:767px){
-  .levels{
-    width:100% !important;
-    transform:none !important;
-    font-size:25px !important;
-  }
+.column {
+  width: 250px;
+  margin:15px;
+  color:black;
+  background-size: cover;
+  text-align: justify;
 }
 
 @media(max-width:767px){
   .question{
-    width:100% !important;
+    margin-left:-27px ;
+    width:90% !important;
     transform:none !important;
     font-size:25px !important;
   }
+
+  .stage{
+    margin-right: -35px !important;
+  }
+
+  .levels{
+    margin-left:-27px ;
+    width:90% !important;
+    transform:none !important;
+    font-size:25px !important;
+  }
+
+  .triviaButtons{
+    margin-right: 51px !important;
+    margin-left: -25px !important;
+  }
+}
+
+.sortinButtons{
+  position:relative;
+  float:left;
+  margin-left:-115px;
+  margin-top:15px
 }
