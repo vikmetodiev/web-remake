@@ -54,6 +54,11 @@
   background-size: cover;
 }
 
+.backImg3 {
+  background-image: url("/fire.jpg");
+  background-size: cover;
+}
+
 
 .game-area {
   position: relative;
@@ -62,6 +67,15 @@
   height: 470px;
   border: 2px solid #000;
   background-color:white;
+}
+
+.onePieceStory{
+  text-align: justify;
+  font-size: 25px;
+  background-color:white;
+  background-color: rgba(0, 0, 0, 0.7);
+  color:azure;
+  margin:5%;
 }
 
 .snake-dot{
