@@ -59,6 +59,11 @@
   background-size: cover;
 }
 
+.backImg4 {
+  background-image: url("/one_piece.png");
+  background-size: cover;
+}
+
 
 .game-area {
   position: relative;
@@ -75,7 +80,7 @@
   background-color:white;
   background-color: rgba(0, 0, 0, 0.7);
   color:azure;
-  margin:5%;
+  margin:10px;
 }
 
 .snake-dot{

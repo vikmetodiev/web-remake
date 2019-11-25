@@ -6,6 +6,7 @@ import classnames from 'classnames';
 
 
 import OnePiece from "./Animes/OnePiece/OnePiece.js"
+import Naruto from "./Animes/Naruto/Naruto.js"
 const Animes = () => {
     const [activeTab, setActiveTab] = useState('1');
 
@@ -90,6 +91,7 @@ const Animes = () => {
                     <OnePiece />
                 </TabPane>
                 <TabPane tabId="2">
+                  <Naruto />
                 </TabPane>
 
                 <TabPane tabId="3">

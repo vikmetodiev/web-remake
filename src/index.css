@@ -73,6 +73,11 @@ code {
 .onePieceButtons{
   background-color:green !important;
   color:wheat !important;
+  float: left;
+  width:100%;
+  height: auto;
+  margin-left:28px;
+  margin:5px
 }
 
 @media(max-width:1023px){

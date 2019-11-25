@@ -6,20 +6,13 @@ import { ReactComponent as ServiceImg } from "./handyman-tools.svg"
 import { ReactComponent as AboutImg } from "./quill-drawing-a-line.svg"
 import { ReactComponent as AnimeImg } from "./sword.svg"
 import { ReactComponent as GamesImg } from "./labyrinth.svg"
-import {ReactComponent as TodoImg} from "./todo.svg"
+import { ReactComponent as TodoImg } from "./todo.svg"
 const Home = lazy(() => import('../routes/MainPage.js'))
 const About = lazy(() => import('../routes/About.js'));
 const Services = lazy(() => import('../routes/Services.js'));
 const Animes = lazy(() => import('../routes/Animes.js'));
 const Games = lazy(() => import('../routes/Games.js'));
-const OnePieceChar = lazy(() => import('../routes/Animes/OnePiece/OPCharacters.js'));
-const OnePiece = lazy(() => import('../routes/Animes/OnePiece/OnePiece.js'))
-const OPStory = lazy(() => import('../routes/Animes/OnePiece/OPStory.js'))
-const OPVideos = lazy(() => import('../routes/Animes/OnePiece/OPVideos.js'))
 const Todo = lazy(() => import("../routes/TodoList.js"))
-const SecondVideos = lazy(() => import("../routes/Animes/OnePiece/SecondVideos.js"))
-const ThirdVideos = lazy(() => import("../routes/Animes/OnePiece/ThirdVideos.js"))
-const FourthVideos = lazy(() => import("../routes/Animes/OnePiece/FourthVideos.js"))
 function Navbar() {
     return (
         <div>
@@ -31,7 +24,7 @@ function Navbar() {
                         <Col md="2" xs="4"><Button href="/Services" style={{ marginRight: 15, marginTop: 0, backgroundColor: "palegreen", color: "green", display: "inline-flex" }}><ServiceImg style={{ width: 15, height: "auto", marginBottom: 3, marginRight: "5px" }} /> Services</Button></Col>
                         <Col md="2" xs="4"><Button href="/Animes" style={{ marginTop: 0, marginRight: 15, backgroundColor: "palegreen", color: "green", display: "inline-flex" }}><AnimeImg style={{ width: 15, height: "auto", marginBottom: 3, marginRight: "5px" }} /> Animes</Button></Col>
                         <Col md="2" xs="4"><Button href="/Games" style={{ marginTop: 0, marginRight: 15, backgroundColor: "palegreen", color: "green", display: "inline-flex" }}><GamesImg style={{ width: 15, height: "auto", marginBottom: 3, marginRight: "5px" }} /> Games</Button></Col>
-                        <Col md="2" xs="4"><Button href="/Todo" style={{marginTop:0,marginRight:15,backgroundColor:"palegreen", color:"green",display:"inline-flex"}} ><TodoImg style={{ width: 15, height: "auto", marginBottom: 3, marginRight: "5px" }} />Todo </Button></Col>
+                        <Col md="2" xs="4"><Button href="/Todo" style={{ marginTop: 0, marginRight: 15, backgroundColor: "palegreen", color: "green", display: "inline-flex" }} ><TodoImg style={{ width: 15, height: "auto", marginBottom: 3, marginRight: "5px" }} />Todo </Button></Col>
                     </Row>
                 </ButtonGroup>
                     <br />
@@ -41,18 +34,11 @@ function Navbar() {
                         <Switch>
 
                             <Route exact path="/Home" component={Home} />
-                            <Route path="/OnePiece" component={OnePiece} />
                             <Route path="/Todo" component={Todo} />
-                            <Route path="/OPStory" component={OPStory} />
-                            <Route path="/OPVideos" component={OPVideos} />
                             <Route path="/About" component={About} />
-                            <Route path="/OPCharacters" component={OnePieceChar} />
                             <Route path="/Services" component={Services} />
                             <Route path="/Animes" component={Animes} />
                             <Route path="/Games" component={Games} />
-                            <Route path="/SecondVideos" component={SecondVideos} />
-                            <Route path="/ThirdVideos" component={ThirdVideos} />
-                            <Route path="/FourthVideos" component={FourthVideos} />
                         </Switch>
                     </Suspense>
                 </Router>

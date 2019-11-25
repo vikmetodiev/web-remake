@@ -1,9 +1,9 @@
 import React from "react"
 import { Container } from "reactstrap"
-function OPStory() {
+function NarutoStory() {
     return (
         <Container className="backImg3">
-            <h1 style={{ color: "azure" }}>One Piece Story</h1>
+            <h1 style={{ color: "azure" }}>Naruto Story</h1>
                 <h2 className="onePieceStory">One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized
                     in Shueisha's Weekly Shōnen Jump magazine since July 22, 1997, and has been collected into 94 tankōbon volumes.
                     The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after
@@ -21,4 +21,4 @@ function OPStory() {
         </Container>
     )
 }
-export default OPStory
+export default NarutoStory

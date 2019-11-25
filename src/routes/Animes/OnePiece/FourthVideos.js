@@ -1,13 +1,12 @@
 import React from "react"
-import { Container, Row, Col, Button } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 
 class FourthVideos extends React.Component {
     render() {
         return (
             <Container className="text-center">
-                <h1 style={{ color: "azure" }}>One Piece AMV's <Button href="/Animes">Back</Button></h1>
-                <h2>4</h2>
-                <div style={{ marginBottom: 15,margin:15 }}><Button style={{ marginRight: 15 }} href="/ThirdVideos">Previous</Button><Button style={{ marginRight: 15 }} href="/OPVideos">1</Button><Button style={{ marginRight: 15 }} href="/SecondVideos">2</Button><Button style={{ marginRight: 15 }} href="/ThirdVideos">3</Button><Button style={{ marginRight: 15 }} href="/FourthVideos">4</Button></div>
+                <h1 style={{ color: "azure" }}>One Piece AMV's</h1>
+                <h2 style={{ color: "azure" }}>4th Page</h2>
                 <Row >
                     <Col md="4" sm="12" xs="12"><iframe width="100%" height="215" src="https://www.youtube.com/embed/CaVFYaRT1XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video"></iframe></Col>
                     <Col md="4" sm="12" xs="12"><iframe width="100%" height="215" src="https://www.youtube.com/embed/jS7CbfaQHxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video"></iframe></Col>
