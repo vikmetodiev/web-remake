@@ -1,12 +1,14 @@
 import React from "react"
 
-
-function MainPage(){
-    return(
-        <div>
-            This is the main page
+class MainPage extends React.Component {
+    render() {
+        return (
+            <div>
+                This is the main page
             <h1>Everywhere?</h1>
-        </div>
-    )
+
+            </div>
+        )
+    }
 }
 export default MainPage

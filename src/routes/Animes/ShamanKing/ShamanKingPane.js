@@ -21,24 +21,24 @@ const ShamanKingPane = () => {
                 <Nav tabs className="text-center" style={{ display: "inline-flex" }}>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '13' })}
-                            onClick={() => { toggle('13'); }}
+                            className={classnames({ active: activeTab === '50' })}
+                            onClick={() => { toggle('50'); }}
                             style={{ cursor: "pointer", backgroundColor: "red", color: "azure" }}>
                             Main
           </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '10' })}
-                            onClick={() => { toggle('10'); }}
+                            className={classnames({ active: activeTab === '51' })}
+                            onClick={() => { toggle('51'); }}
                             style={{ cursor: "pointer", backgroundColor: "red", color: "azure" }}>
                             Characters
           </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '11' })}
-                            onClick={() => { toggle('11'); }}
+                            className={classnames({ active: activeTab === '52' })}
+                            onClick={() => { toggle('52'); }}
                             style={{ cursor: "pointer", backgroundColor: "red", color: "azure" }}>
                             Story
           </NavLink>
@@ -46,8 +46,8 @@ const ShamanKingPane = () => {
 
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '12' })}
-                            onClick={() => { toggle('12'); }}
+                            className={classnames({ active: activeTab === '53' })}
+                            onClick={() => { toggle('53'); }}
                             style={{ cursor: "pointer", backgroundColor: "red", color: "azure" }}>
                             Videos
           </NavLink>
@@ -55,17 +55,17 @@ const ShamanKingPane = () => {
                 </Nav>
             </div>
             <TabContent activeTab={activeTab}>
-                <TabPane tabId="13">
+                <TabPane tabId="50">
                     <ShamanKingMain />
                 </TabPane>
-                <TabPane tabId="10">
+                <TabPane tabId="51">
                     <ShamanKingCharacters />
                 </TabPane>
-                <TabPane tabId="11">
+                <TabPane tabId="52">
                     <ShamanKingStory />
                 </TabPane>
 
-                <TabPane tabId="12">
+                <TabPane tabId="53">
                     <VideoPane />
                 </TabPane>
             </TabContent>

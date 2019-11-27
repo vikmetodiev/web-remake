@@ -20,24 +20,24 @@ const VideoPane = () => {
                 <Nav tabs className="text-center" style={{ display: "inline-flex" }}>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '20' })}
-                            onClick={() => { toggle('20'); }}
+                            className={classnames({ active: activeTab === '54' })}
+                            onClick={() => { toggle('54'); }}
                             style={{ cursor: "pointer", backgroundColor: "grey", color: "black",margin:15}}>
                             1
           </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '21' })}
-                            onClick={() => { toggle('21'); }}
+                            className={classnames({ active: activeTab === '55' })}
+                            onClick={() => { toggle('55'); }}
                             style={{ cursor: "pointer", backgroundColor: "grey", color: "black",margin:15}}>
                             2
           </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '22' })}
-                            onClick={() => { toggle('22'); }}
+                            className={classnames({ active: activeTab === '56' })}
+                            onClick={() => { toggle('56'); }}
                             style={{ cursor: "pointer", backgroundColor: "grey", color: "black",margin:15}} >
                             3
           </NavLink>
@@ -45,8 +45,8 @@ const VideoPane = () => {
 
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '23' })}
-                            onClick={() => { toggle('23'); }}
+                            className={classnames({ active: activeTab === '57' })}
+                            onClick={() => { toggle('57'); }}
                             style={{ cursor: "pointer", backgroundColor: "grey", color: "black",margin:15}}>
                             4
           </NavLink>
@@ -54,17 +54,17 @@ const VideoPane = () => {
                 </Nav>
             </div>
             <TabContent activeTab={activeTab}>
-                <TabPane tabId="20">
+                <TabPane tabId="54">
                     <ShamanKingVideos />
                 </TabPane>
-                <TabPane tabId="21">
+                <TabPane tabId="55">
                     <SecondVideos />
                 </TabPane>
-                <TabPane tabId="22">
+                <TabPane tabId="56">
                     <ThirdVideos />
                 </TabPane>
 
-                <TabPane tabId="23">
+                <TabPane tabId="57">
                     <FourthVideos />
                 </TabPane>
             </TabContent>

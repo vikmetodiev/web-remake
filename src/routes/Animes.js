@@ -20,7 +20,7 @@ const Animes = () => {
     return (
         <Container >
             <div className="text-center">
-                <Nav tabs className="text-center" style={{display:"inline-flex"}}>
+                <Nav tabs className="text-center" style={{ display: "inline-flex" }}>
                     <NavItem>
                         <NavLink
                             className={classnames({ active: activeTab === '1' })}
@@ -94,7 +94,7 @@ const Animes = () => {
                     <OnePiece />
                 </TabPane>
                 <TabPane tabId="2">
-                  <Naruto />
+                    <Naruto />
                 </TabPane>
 
                 <TabPane tabId="3">
