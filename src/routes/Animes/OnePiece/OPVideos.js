@@ -12,10 +12,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/8vJcG7lPnDY"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/8vJcG7lPnDY?autoplay=1><img src=https://img.youtube.com/vi/8vJcG7lPnDY/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/8vJcG7lPnDY?autoplay=1><img src=https://img.youtube.com/vi/8vJcG7lPnDY/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -24,10 +24,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/cCKV0HauhSQ"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/cCKV0HauhSQ?autoplay=1><img src=https://img.youtube.com/vi/cCKV0HauhSQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/cCKV0HauhSQ?autoplay=1><img src=https://img.youtube.com/vi/cCKV0HauhSQ/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -36,10 +36,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/S78lnml_K6E"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/S78lnml_K6E?autoplay=1><img src=https://img.youtube.com/vi/S78lnml_K6E/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/S78lnml_K6E?autoplay=1><img src=https://img.youtube.com/vi/S78lnml_K6E/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -48,10 +48,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/6aQ_5jyamoU"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6aQ_5jyamoU?autoplay=1><img src=https://img.youtube.com/vi/6aQ_5jyamoU/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6aQ_5jyamoU?autoplay=1><img src=https://img.youtube.com/vi/6aQ_5jyamoU/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -60,10 +60,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/bHTiCsZN1eA"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/bHTiCsZN1eA?autoplay=1><img src=https://img.youtube.com/vi/bHTiCsZN1eA/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/bHTiCsZN1eA?autoplay=1><img src=https://img.youtube.com/vi/bHTiCsZN1eA/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -72,10 +72,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/yQJJqM1Wk6E"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/yQJJqM1Wk6E?autoplay=1><img src=https://img.youtube.com/vi/yQJJqM1Wk6E/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/yQJJqM1Wk6E?autoplay=1><img src=https://img.youtube.com/vi/yQJJqM1Wk6E/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -84,10 +84,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/--LU5aSxbv0"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/--LU5aSxbv0?autoplay=1><img src=https://img.youtube.com/vi/--LU5aSxbv0/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/--LU5aSxbv0?autoplay=1><img src=https://img.youtube.com/vi/--LU5aSxbv0/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -96,10 +96,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/2p0mL6nXzLM"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/2p0mL6nXzLM?autoplay=1><img src=https://img.youtube.com/vi/2p0mL6nXzLM/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/2p0mL6nXzLM?autoplay=1><img src=https://img.youtube.com/vi/2p0mL6nXzLM/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -108,10 +108,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/bMV564i8dRk"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/bMV564i8dRk?autoplay=1><img src=https://img.youtube.com/vi/bMV564i8dRk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/bMV564i8dRk?autoplay=1><img src=https://img.youtube.com/vi/bMV564i8dRk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -120,10 +120,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/vN8U2MHjyxs"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/vN8U2MHjyxs?autoplay=1><img src=https://img.youtube.com/vi/vN8U2MHjyxs/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/vN8U2MHjyxs?autoplay=1><img src=https://img.youtube.com/vi/vN8U2MHjyxs/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -132,10 +132,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/flKBl7jgFMY"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/flKBl7jgFMY?autoplay=1><img src=https://img.youtube.com/vi/flKBl7jgFMY/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/flKBl7jgFMY?autoplay=1><img src=https://img.youtube.com/vi/flKBl7jgFMY/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>
@@ -144,10 +144,10 @@ class OPVideos extends React.Component {
                             width="100%"
                             height="215"
                             src="https://www.youtube.com/embed/-VTZy5AL4dU"
-                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/-VTZy5AL4dU?autoplay=1><img src=https://img.youtube.com/vi/-VTZy5AL4dU/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
-                            frameborder="0"
+                            srcDoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/-VTZy5AL4dU?autoplay=1><img src=https://img.youtube.com/vi/-VTZy5AL4dU/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                             title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
                         ></iframe>
                     </Col>

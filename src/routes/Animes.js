@@ -10,6 +10,8 @@ import Naruto from "./Animes/Naruto/Naruto.js"
 import Bleach from "./Animes/Bleach/Bleach.js"
 import ShamanKing from "./Animes/ShamanKing/ShamanKing.js"
 import BlackClover from "./Animes/BlackClover/BlackClover.js"
+import DemonSlayer from "./Animes/DemonSlayer/DemonSlayer.js"
+import FairyTail from "./Animes/FairyTail/FairyTail.js"
 const Animes = () => {
     const [activeTab, setActiveTab] = useState('1');
 
@@ -105,6 +107,12 @@ const Animes = () => {
                 </TabPane>
                 <TabPane tabId="5">
                     <BlackClover />
+                </TabPane>
+                <TabPane tabId="6">
+                    <FairyTail />
+                </TabPane>
+                <TabPane tabId="7">
+                    <DemonSlayer />
                 </TabPane>
             </TabContent>
         </Container>
