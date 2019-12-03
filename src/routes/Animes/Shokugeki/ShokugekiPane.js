@@ -3,10 +3,10 @@ import React, { useState } from "react"
 import { TabContent, TabPane, Nav, NavItem, NavLink, Container } from 'reactstrap';
 
 import classnames from 'classnames';
-import NarutoCharacters from "./NarutoCharacters.js"
+import ShokugekiCharacters from "./ShokugekiCharacters.js"
 import VideoPane from "./VideoPane.js"
-import NarutoStory from "./NarutoStory.js"
-import NarutoMain from "./NarutoMain.js"
+import ShokugekiStory from "./ShokugekiStory.js"
+import ShokugekiMain from "./ShokugekiMain.js"
 const OnePiecePane = () => {
     const [activeTab, setActiveTab] = useState('1');
 
@@ -55,13 +55,13 @@ const OnePiecePane = () => {
             </div>
             <TabContent activeTab={activeTab}>
                 <TabPane tabId="30">
-                    <NarutoMain />
+                    <ShokugekiMain />
                 </TabPane>
                 <TabPane tabId="31">
-                    <NarutoCharacters />
+                    <ShokugekiCharacters />
                 </TabPane>
                 <TabPane tabId="32">
-                    <NarutoStory />
+                    <ShokugekiStory />
                 </TabPane>
 
                 <TabPane tabId="33">

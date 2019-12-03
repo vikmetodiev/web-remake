@@ -5,7 +5,7 @@ class FourthVideos extends React.Component {
     render() {
         return (
             <Container className="text-center">
-                <h1 style={{ color: "azure" }}>Naruto AMV's</h1>
+                <h1 style={{ color: "azure" }}>Shokugeki no Soma AMV's</h1>
                 <h2 style={{ color: "azure" }}>4th Page</h2>
                 <Row >
                 <Col md="4" sm="12" xs="12">

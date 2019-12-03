@@ -3,7 +3,7 @@ import { Button, Row } from "reactstrap"
 import CharactersInfo from "./CharactersInfo.js"
 
 import Data from "./Data"
-class NarutoCharacters extends React.Component {
+class ShokugekiCharacters extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -80,7 +80,7 @@ class NarutoCharacters extends React.Component {
         return (
             <ul className="text-center" style={{ color: "azure" }}>
 
-                <h1>Naruto Characters </h1>
+                <h1>Shokugeki no Soma Characters </h1>
                 <aside className="sortinButtons" style={{ position: "inherit" }}>
                     <ul style={{ listStyle: "none" }}>
                         <li><Button className="onePieceButtons" onClick={this.getItems}>Get all the Items Back</Button></li>
@@ -102,4 +102,4 @@ class NarutoCharacters extends React.Component {
     }
 }
 
-export default NarutoCharacters
+export default ShokugekiCharacters

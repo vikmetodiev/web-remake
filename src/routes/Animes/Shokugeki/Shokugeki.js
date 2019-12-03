@@ -1,13 +1,13 @@
 import React from "react"
 
-import NarutoPane from "./NarutoPane.js"
+import ShokugekiPane from "./ShokugekiPane.js"
 import { Container } from "reactstrap"
-function Naruto() {
+function Shokugeki() {
     return (
         <Container>
             <br />
-            <NarutoPane />
+            <ShokugekiPane />
         </Container>
     )
 }
-export default Naruto
+export default Shokugeki

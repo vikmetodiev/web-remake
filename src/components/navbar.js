@@ -13,6 +13,7 @@ const Services = lazy(() => import('../routes/Services.js'));
 const Animes = lazy(() => import('../routes/Animes.js'));
 const Games = lazy(() => import('../routes/Games.js'));
 const Todo = lazy(() => import("../routes/TodoList.js"))
+const NotFound = lazy(() => import("./NotFound.js"))
 function Navbar() {
     return (
         <div>
@@ -32,13 +33,14 @@ function Navbar() {
                 <Router>
                     <Suspense fallback={<div>Loading...</div>}>
                         <Switch>
-
+                            <Route exact path="/" component={Home} />
                             <Route exact path="/Home" component={Home} />
                             <Route path="/Todo" component={Todo} />
                             <Route path="/About" component={About} />
                             <Route path="/Services" component={Services} />
                             <Route path="/Animes" component={Animes} />
                             <Route path="/Games" component={Games} />
+                            <Route path="*" exact={true} component={NotFound} />
                         </Switch>
                     </Suspense>
                 </Router>

@@ -4,7 +4,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, Container } from 'reactstra
 
 import classnames from 'classnames';
 import FourthVideos from "./FourthVideos.js"
-import NarutoVideos from "./NarutoVideos.js"
+import ShokugekiVideos from "./ShokugekiVideos.js"
 import SecondVideos from "./SecondVideos.js"
 import ThirdVideos from "./ThirdVideos.js"
 const VideoPane = () => {
@@ -55,7 +55,7 @@ const VideoPane = () => {
             </div>
             <TabContent activeTab={activeTab}>
                 <TabPane tabId="34">
-                    <NarutoVideos />
+                    <ShokugekiVideos />
                 </TabPane>
                 <TabPane tabId="35">
                     <SecondVideos />

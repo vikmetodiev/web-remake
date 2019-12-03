@@ -3,7 +3,7 @@ import { Container } from "reactstrap"
 function NarutoStory() {
     return (
         <Container className="backImg3">
-            <h1 style={{ color: "azure" }}>Naruto Story</h1>
+            <h1 style={{ color: "azure" }}>Shokugeki no Soma Story</h1>
                 <h2 className="onePieceStory">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. 
                 It tells the story of Naruto Uzumaki, a young ninja who seeks to gain recognition from his peers and also dreams of 
                 becoming the Hokage, the leader of his village. The story is in two parts, the first set in Naruto's pre-teen years, 
