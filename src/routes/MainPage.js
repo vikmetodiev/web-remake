@@ -32,7 +32,6 @@ class MainPage extends React.Component {
                 This is the main page
                 <h1>Everywhere?</h1>
                 {todo}
-
             </div>
         )
     }
