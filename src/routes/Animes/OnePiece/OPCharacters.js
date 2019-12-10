@@ -3,12 +3,35 @@ import { Button, Row } from "reactstrap"
 import CharactersInfo from "./CharactersInfo.js"
 
 import Data from "./Data"
+
 class OPCharacters extends React.Component {
     constructor() {
         super()
         this.state = {
             data: Data,
-            allItems: Data
+            allItems: Data,
+            allButtons: [
+                {
+                    id: "first_button",
+                    disabled: false,
+                    name:"sortByName"
+                },
+                {
+                    id: "second_button",
+                    disabled: false,
+                    name:"reverseSortByName"
+                },
+                {
+                    id: "third_button",
+                    disabled: false,
+                    name:"sortByID"
+                },
+                {
+                    id: "fourth_button",
+                    disabled: false,
+                    name:"reverseSortByID"
+                }
+            ]
         }
     }
 
@@ -24,22 +47,34 @@ class OPCharacters extends React.Component {
 
     sortByName = () => {
         let products = this.state.data.sort((a, b) => this.sortByProperty(a, b, "name"))
+        let button = this.state.allButtons
+        let currentButton = button.find((button) => button.id === "first_button");
+        currentButton.disabled = !currentButton.disabled;
         this.setState({
-            data: products
+            data: products,
+            allButtons: button
         })
     }
 
     backwardsSortByName = () => {
         let products = this.state.data.sort((a, b) => this.sortByProperty(b, a, "name"))
+        let button = this.state.allButtons
+        let currentButton = button.find((button) => button.id === "second_button");
+        currentButton.disabled = !currentButton.disabled;
         this.setState({
-            data: products
+            data: products,
+            allButtons: button
         })
     }
 
     sortByID = () => {
         let products = this.state.data.sort((a, b) => this.sortByProperty(a, b, "id"))
+        let button = this.state.allButtons
+        let currentButton = button.find((button) => button.id === "third_button");
+        currentButton.disabled = !currentButton.disabled;
         this.setState({
-            data: products
+            data: products,
+            allButtons: button
         })
     }
     removeFirstItem = () => {
@@ -55,8 +90,12 @@ class OPCharacters extends React.Component {
     }
     backwardsSortByID = () => {
         let products = this.state.data.sort((a, b) => this.sortByProperty(b, a, "id"))
+        let button = this.state.allButtons
+        let currentButton = button.find((button) => button.id === "fourth_button");
+        currentButton.disabled = !currentButton.disabled;
         this.setState({
-            data: products
+            data: products,
+            allButtons: button
         })
     }
 
@@ -77,19 +116,42 @@ class OPCharacters extends React.Component {
     render() {
         const Characters = this.state.data.map(item => <CharactersInfo key={item.id} item={item} />)
         console.log(this.state.data)
+
+        let theButtons = this.state.allButtons.map(button => {
+            let classes = []
+            let handleClick = () => { }
+
+            switch (button.id) {
+                case "first_button":
+                    handleClick = this.sortByName
+                    break;
+                case "second_button":
+                    handleClick = this.backwardsSortByName
+                    break;
+                case "third_button":
+
+                    handleClick = this.sortByID
+                    break;
+                case "fourth_button":
+                    handleClick = this.backwardsSortByID
+                    break;
+                default:
+
+
+            }
+            classes = button.disabled? classes = ["onePieceButtons", "custon", "completed"] : ["onePieceButtons", "custon"]
+            return <Button className={classes.join(' ')} key={button.id} onClick={handleClick}>{button.name}</Button>
+        })
         return (
             <ul className="text-center" style={{ color: "azure" }}>
 
                 <h1>One Piece Characters</h1>
                 <aside className="sortinButtons" style={{ position: "inherit" }}>
                     <ul style={{ listStyle: "none" }}>
-                        <li><Button className="onePieceButtons" onClick={this.getItems}>Get all the Items Back</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.removeLastItem}>Remove last Item</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.removeFirstItem}>Remove first Item</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.backwardsSortByID}>Sort Reversed</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.sortByID}>Sort Back</Button></li>
-                        <li><Button className="onePieceButtons"onClick={this.sortByName}>Sort by Name</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.backwardsSortByName}>Sort by Name backwards</Button></li>
+                        <li><Button className="onePieceButtons custom" onClick={this.getItems}>Get all the Items Back</Button></li>
+                        <li><Button className="onePieceButtons custom" onClick={this.removeLastItem}>Remove last Item</Button></li>
+                        <li><Button className="onePieceButtons custom" onClick={this.removeFirstItem}>Remove first Item</Button></li>
+                        {theButtons}
                     </ul>
                 </aside>
                 <Row>
