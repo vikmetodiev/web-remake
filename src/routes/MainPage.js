@@ -1,13 +1,19 @@
 import React from "react"
+<<<<<<< HEAD
 import axios from "axios";
 import swal from "sweetalert";
 import { Redirect } from 'react-router-dom'
 
 let levels = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 640000, 128000, 250000, 500000, 1000000]
+=======
+import Data from "./Data"
+import TodoItem from "./TodoItem.js"
+>>>>>>> refs/remotes/origin/master
 class MainPage extends React.Component {
     constructor() {
         super()
         this.state = {
+<<<<<<< HEAD
             TriviaData: [],
             current: 0
         }
@@ -103,6 +109,35 @@ class MainPage extends React.Component {
                 <h1>This is the Main Page or smf like that</h1>
                 <h2>QuestioN: {question}</h2>
                 <h3>{all_answers}</h3>
+=======
+            todoData: Data
+        }
+    }
+
+    handleClick = (id) => {
+        this.setState(prevState => {
+            let checkIfClicked = prevState.todoData.map(item => {
+                if (item.id === id) {
+                    item.completed = !item.completed
+                    console.log("the item with id " + id + " is set to " + item.completed)
+                } 
+                return item
+            })
+            
+            return { todoData: checkIfClicked }
+        })
+    }
+
+
+
+    render() {
+        let todo = this.state.todoData.map(item => <TodoItem key={item.id} item={item} handleClick={this.handleClick} />)
+        return (
+            <div>
+                This is the main page
+                <h1>Everywhere?</h1>
+                {todo}
+>>>>>>> refs/remotes/origin/master
             </div>
         )
     }
