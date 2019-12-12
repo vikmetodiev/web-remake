@@ -43,6 +43,9 @@
   font-weight: bold;
 
 }
+.padddingCarousel{
+  padding: 0 100px;
+}
 
 .backImg1 {
   background-image: url("/trivia-tuesdays-background.jpg");
@@ -51,7 +54,7 @@
 
 .backImg2 {
   background-image: url("/sun.jpg");
-  background-size: cover;
+  background-size: 50%;
 }
 
 .backImg3 {

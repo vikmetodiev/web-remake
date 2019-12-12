@@ -161,9 +161,10 @@ class Trivia extends React.Component {
                 answer: currentQuestion.correct_answer,
                 correct: true
             }];
-            answers = this.shuffle(answers);
+            
 
         }
+        answers = this.shuffle(answers);
         const levels_test = Levels.map((ar, index) => {
             let isPast = this.state.current > index;
             let isCurrent = this.state.current === index;

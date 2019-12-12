@@ -74,9 +74,29 @@ class ShokugekiCharacters extends React.Component {
         })
     }
 
+    shuffle = (answers) => {
+        let counter = answers.length;
+
+        // While there are elements in the array
+        while (counter > 0) {
+            // Pick a random index
+            let index = Math.floor(Math.random() * counter);
+
+            // Decrease counter by 1
+            counter--;
+
+            // And swap the last element with it
+            let temp = answers[counter];
+            answers[counter] = answers[index];
+            answers[index] = temp;
+        }
+
+        return answers;
+    }
+
     render() {
-        const Characters = this.state.data.map(item => <CharactersInfo key={item.id} item={item} />)
-        console.log(this.state.data)
+        let Characters = this.state.data.map(item => <CharactersInfo key={item.id} item={item} />)
+        Characters = this.shuffle(Characters);
         return (
             <ul className="text-center" style={{ color: "azure" }}>
 

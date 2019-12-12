@@ -9,7 +9,6 @@ class TodoList extends React.Component {
             todoData: todosData
         }
     }
-
     handleClick = (id) => {
         console.log(id)
         this.setState(prevState => {

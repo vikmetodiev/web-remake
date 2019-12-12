@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import FairyTailStory from "./FairyTailStory.js"
 import FairyTailMain from "./FairyTailMain.js"
 const FairyTailPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('60');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
@@ -22,7 +22,7 @@ const FairyTailPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '60' })}
                             onClick={() => { toggle('60'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "DarkSalmon", color: "azure" }}>
                             Main
           </NavLink>
                     </NavItem>
@@ -30,7 +30,7 @@ const FairyTailPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '61' })}
                             onClick={() => { toggle('61'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "DarkSalmon", color: "azure" }}>
                             Characters
           </NavLink>
                     </NavItem>
@@ -38,7 +38,7 @@ const FairyTailPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '62' })}
                             onClick={() => { toggle('62'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "DarkSalmon", color: "azure" }}>
                             Story
           </NavLink>
                     </NavItem>
@@ -47,7 +47,7 @@ const FairyTailPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '63' })}
                             onClick={() => { toggle('63'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "DarkSalmon", color: "azure" }}>
                             Videos
           </NavLink>
                     </NavItem>

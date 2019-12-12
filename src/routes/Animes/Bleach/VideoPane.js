@@ -8,7 +8,7 @@ import BleachVideos from "./BleachVideos.js"
 import SecondVideos from "./SecondVideos.js"
 import ThirdVideos from "./ThirdVideos.js"
 const VideoPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('44');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

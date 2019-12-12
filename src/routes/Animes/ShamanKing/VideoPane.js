@@ -8,7 +8,7 @@ import ShamanKingVideos from "./ShamanKingVideos.js"
 import SecondVideos from "./SecondVideos.js"
 import ThirdVideos from "./ThirdVideos.js"
 const VideoPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('54');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

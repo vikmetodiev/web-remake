@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import BlackCloverStory from "./BlackCloverStory.js"
 import BlackCloverMain from "./BlackCloverMain.js"
 const OnePiecePane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('30');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

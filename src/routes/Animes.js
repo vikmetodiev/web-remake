@@ -5,7 +5,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, Container } from 'reactstra
 import classnames from 'classnames';
 
 
-import OnePiece from "./Animes/OnePiece/OnePiece.js"
+import OnePiecePane from "./Animes/OnePiece/TestPane"
 import Naruto from "./Animes/Naruto/Naruto.js"
 import Bleach from "./Animes/Bleach/Bleach.js"
 import ShamanKing from "./Animes/ShamanKing/ShamanKing.js"
@@ -94,7 +94,7 @@ const Animes = () => {
             </div>
             <TabContent activeTab={activeTab}>
                 <TabPane tabId="1">
-                    <OnePiece />
+                    <OnePiecePane />
                 </TabPane>
                 <TabPane tabId="2">
                     <Naruto />

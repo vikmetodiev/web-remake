@@ -6,7 +6,7 @@ function NarutoMain() {
     return (
         <Container>
             <h1 style={{ color: "azure" }}>Naruto</h1>
-            <img src="/naruto.jpg" alt="onePiece" style={{position:"relative"}}/>
+            <img src="/naruto.jpg" alt="onePiece" style={{position:"relative",width:"60%"}}/>
         </Container>
     )
 }

@@ -9,7 +9,7 @@ import ShamanKingStory from "./ShamanKingStory.js"
 import ShamanKingMain from "./ShamanKingMain.js"
 
 const ShamanKingPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('50');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

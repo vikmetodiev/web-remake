@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import ShokugekiStory from "./ShokugekiStory.js"
 import ShokugekiMain from "./ShokugekiMain.js"
 const OnePiecePane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('30');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
@@ -22,7 +22,7 @@ const OnePiecePane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '30' })}
                             onClick={() => { toggle('30'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightSalmon", color: "azure" }}>
                             Main
           </NavLink>
                     </NavItem>
@@ -30,7 +30,7 @@ const OnePiecePane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '31' })}
                             onClick={() => { toggle('31'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightSalmon", color: "azure" }}>
                             Characters
           </NavLink>
                     </NavItem>
@@ -38,7 +38,7 @@ const OnePiecePane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '32' })}
                             onClick={() => { toggle('32'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightSalmon", color: "azure" }}>
                             Story
           </NavLink>
                     </NavItem>
@@ -47,7 +47,7 @@ const OnePiecePane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '33' })}
                             onClick={() => { toggle('33'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightSalmon", color: "azure" }}>
                             Videos
           </NavLink>
                     </NavItem>

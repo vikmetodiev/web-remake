@@ -8,7 +8,7 @@ import DemonSlayerStory from "./DemonSlayerStory.js"
 import DemonSlayerMain from "./DemonSlayerMain.js"
 import DemonSlayerCharacters from "./DemonSlayerCharacters.js";
 const DemonSlayerPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('50');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
@@ -22,7 +22,7 @@ const DemonSlayerPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '50' })}
                             onClick={() => { toggle('50'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightCoral", color: "azure" }}>
                             Main
           </NavLink>
                     </NavItem>
@@ -30,7 +30,7 @@ const DemonSlayerPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '51' })}
                             onClick={() => { toggle('51'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightCoral", color: "azure" }}>
                             Characters
           </NavLink>
                     </NavItem>
@@ -38,7 +38,7 @@ const DemonSlayerPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '52' })}
                             onClick={() => { toggle('52'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightCoral", color: "azure" }}>
                             Story
           </NavLink>
                     </NavItem>
@@ -47,7 +47,7 @@ const DemonSlayerPane = () => {
                         <NavLink
                             className={classnames({ active: activeTab === '53' })}
                             onClick={() => { toggle('53'); }}
-                            style={{ cursor: "pointer", backgroundColor: "firebrick", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "LightCoral", color: "azure" }}>
                             Videos
           </NavLink>
                     </NavItem>

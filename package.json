@@ -8,6 +8,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
+    "mobx-react": "^6.1.4",
     "preval.macro": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -41,5 +42,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "babel": { "presets": [ "react-app" ], "plugins": [ [ "@babel/plugin-proposal-decorators", { "legacy": true } ] ] },
+  
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
+}
 }

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import { Container, Alert, Button } from "reactstrap"
-import Clicker from "./Clicker.js";
+import { observer } from "mobx"
 
+@observer
 class Quote extends Component {
     constructor(props) {
         let storedClicks = 0;
@@ -54,17 +55,13 @@ class Quote extends Component {
         return (
             <div className="backImg2">
                 <Container className="mediaText" style={{ width: "50%" }}>
+                    <h1>Generating random positive quote</h1>
                     <br />
                     <Alert color="dark"><div style={{ color: "azure" }}><h4>{quote}</h4></div>
                         <h5>{author}</h5></Alert>
                     <img style={{ width: 300, marginTop: -35 }} src="./image.jpg" alt="world" />
                     <div><Button onClick={this.getNewQuote} style={{ backgroundColor: "azure", width: 300, height: 50, color: "gainsboro", fontSize: 20 }}>Get New Quote</Button></div>
-                    <div>
-                        <h2>Click the button a few times and refresh page</h2>
-                        <button onClick={this.click}>Click me</button> Counter {this.state.clicks}
-                    </div>
-
-                    <Clicker/>
+ 
                 </Container>
             </div>
         )

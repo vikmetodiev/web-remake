@@ -13,8 +13,7 @@ function CharactersInfo(props) {
     const [collapse, setCollapse] = useState(false);
 
     const toggle = () => setCollapse(!collapse);
-    return (
-        <div>
+    return (        
             <Col xs="4">
                 <Card className="column">
                     <CardHeader>{props.item.name}</CardHeader>
@@ -32,7 +31,6 @@ function CharactersInfo(props) {
                     <CardFooter>Bottom part</CardFooter>
                 </Card>
             </Col>
-        </div>
     )
 
 }

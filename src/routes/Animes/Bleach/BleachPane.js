@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import BleachStory from "./BleachStory.js"
 import BleachMain from "./BleachMain.js"
 const BleachPane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('40');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

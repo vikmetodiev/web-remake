@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import OPStory from "./OPStory.js"
 import OnePieceMain from "./OnePieceMain.js"
 const OnePiecePane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('13');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
@@ -16,6 +16,7 @@ const OnePiecePane = () => {
 
     return (
         <Container >
+            <br/>
             <div className="text-center">
                 <Nav tabs className="text-center" style={{ display: "inline-flex" }}>
                     <NavItem>

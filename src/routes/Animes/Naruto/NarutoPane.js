@@ -8,7 +8,7 @@ import VideoPane from "./VideoPane.js"
 import NarutoStory from "./NarutoStory.js"
 import NarutoMain from "./NarutoMain.js"
 const OnePiecePane = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('30');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
