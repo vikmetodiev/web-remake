@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import { Container, Alert, Button } from "reactstrap"
-import { observer } from "mobx"
+import { observer } from "mobx-react"
 
 @observer
 class Quote extends Component {

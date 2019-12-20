@@ -106,7 +106,7 @@ const Galery = (props) => {
         onExited={() => setAnimating(false)}
       >
         <div style={{ margin: -26 }}><CarouselCaption className="text-danger" captionText={item.altText} captionHeader={item.caption} /></div>
-        <img style={{ marginTop: 15, width: "60%" }} src={item.url} alt="nature" />
+        <div className="py-5" style={{height:"87%"}}><img style={{ marginTop: 15, width: "60%", height: "100%", marginBottom: 15 }} src={item.url} alt="nature" /></div>
       </CarouselItem>
 
     );

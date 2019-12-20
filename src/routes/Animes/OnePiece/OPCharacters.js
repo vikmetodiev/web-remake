@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Row } from "reactstrap"
+import { Button, Row, Col } from "reactstrap"
 import CharactersInfo from "./CharactersInfo.js"
 
 import Data from "./Data"
@@ -78,26 +78,29 @@ class OPCharacters extends React.Component {
         const Characters = this.state.data.map(item => <CharactersInfo key={item.id} item={item} />)
         console.log(this.state.data)
         return (
-            <ul className="text-center" style={{ color: "azure" }}>
+            <div className="text-center" style={{ color: "azure" }}>
 
                 <h1>One Piece Characters</h1>
-                <aside className="sortinButtons" style={{ position: "inherit" }}>
-                    <ul style={{ listStyle: "none" }}>
-                        <li><Button className="onePieceButtons" onClick={this.getItems}>Get all the Items Back</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.removeLastItem}>Remove last Item</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.removeFirstItem}>Remove first Item</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.backwardsSortByID}>Sort Reversed</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.sortByID}>Sort Back</Button></li>
-                        <li><Button className="onePieceButtons"onClick={this.sortByName}>Sort by Name</Button></li>
-                        <li><Button className="onePieceButtons" onClick={this.backwardsSortByName}>Sort by Name backwards</Button></li>
-                    </ul>
-                </aside>
                 <Row>
+                    <Col>
+                        <aside className="sortinButtons" style={{ position: "inherit" }}>
+                            <ul style={{ listStyle: "none" }}>
+                                <li><Button className="onePieceButtons" onClick={this.getItems}>Get all the Items Back</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.removeLastItem}>Remove last Item</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.removeFirstItem}>Remove first Item</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.backwardsSortByID}>Sort Reversed</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.sortByID}>Sort Back</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.sortByName}>Sort by Name</Button></li>
+                                <li><Button className="onePieceButtons" onClick={this.backwardsSortByName}>Sort by Name backwards</Button></li>
+                            </ul>
+                        </aside>
+                    </Col>
+
                     {Characters}
 
                 </Row>
 
-            </ul>
+            </div>
         )
     }
 }

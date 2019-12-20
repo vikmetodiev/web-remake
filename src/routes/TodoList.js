@@ -2,6 +2,8 @@ import React from "react"
 import todosData from "./Data.js"
 import DifferentTodo from "./DifferentTodo.js"
 import { Row } from "reactstrap"
+import {observer} from "mobx-react"
+@observer
 class TodoList extends React.Component {
     constructor() {
         super()

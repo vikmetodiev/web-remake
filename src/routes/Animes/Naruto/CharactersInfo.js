@@ -13,13 +13,13 @@ function CharactersInfo(props) {
     const [collapse, setCollapse] = useState(false);
 
     const toggle = () => setCollapse(!collapse);
-    return (        
-            <Col xs="4">
+    return (
+        <Col sm="6" md="4">
                 <Card className="column">
                     <CardHeader>{props.item.name}</CardHeader>
                     <CardBody className="text-center">
-                        <img style={{width:"50%",height:100, padding:5}} className="imgData" src={props.item.url} alt="error 3000"/>
-                        <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem'}}>Information</Button>
+                        <img style={{ width: "50%", height: 100, padding: 5 }} className="imgData" src={props.item.url} alt="error 3000" />
+                        <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Information</Button>
                         <Collapse isOpen={collapse}>
                             <Card>
                                 <CardBody >
