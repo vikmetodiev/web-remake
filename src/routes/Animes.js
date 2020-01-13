@@ -3,8 +3,6 @@ import React, { useState } from "react"
 import { TabContent, TabPane, Nav, NavItem, NavLink, Container } from 'reactstrap';
 
 import classnames from 'classnames';
-
-
 import OnePiecePane from "./Animes/OnePiece/TestPane"
 import Naruto from "./Animes/Naruto/Naruto.js"
 import Bleach from "./Animes/Bleach/Bleach.js"

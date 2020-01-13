@@ -4,8 +4,13 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, Container } from 'reactstra
 
 import classnames from 'classnames';
 
+import About from "./ElectroPulse/About"
+import Home from "./ElectroPulse/Home"
+import Contacts from "./ElectroPulse/Contacts"
+import Projects from "./ElectroPulse/Projects"
+
 const Services = () => {
-    const [activeTab, setActiveTab] = useState('1');
+    const [activeTab, setActiveTab] = useState('11');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
@@ -13,63 +18,57 @@ const Services = () => {
 
     return (
         <Container >
-            <h1 className="text-center" style={{color:"green"}}>Electro Pulse</h1>
+            <h1 className="text-center" style={{ color: "green", fontStyle: "oblique" }}>Electro Pulse</h1>
             <div className="text-center">
                 <Nav tabs className="text-center" style={{ display: "inline-flex" }}>
                     <NavItem>
                         <NavLink
-                            className={classnames({ active: activeTab === '10' })}
-                            onClick={() => { toggle('10'); }}
-                            style={{ cursor: "pointer", backgroundColor: "darkred", color: "azure" }}>
+                            className={classnames({ active: activeTab === '11' })}
+                            onClick={() => { toggle('11'); }}
+                            style={{ cursor: "pointer", backgroundColor: "azure", color: "black" }}>
                             Home
-          </NavLink>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
                             className={classnames({ active: activeTab === '12' })}
                             onClick={() => { toggle('12'); }}
-                            style={{ cursor: "pointer", backgroundColor: "darkred", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "azure", color: "black" }}>
                             About us
-          </NavLink>
+                        </NavLink>
                     </NavItem>
 
                     <NavItem>
                         <NavLink
                             className={classnames({ active: activeTab === '13' })}
                             onClick={() => { toggle('13'); }}
-                            style={{ cursor: "pointer", backgroundColor: "darkred", color: "azure" }}>
+                            style={{ cursor: "pointer", backgroundColor: "azure", color: "black" }}>
                             Projects
-          </NavLink>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink
                             className={classnames({ active: activeTab === '14' })}
                             onClick={() => { toggle('14'); }}
-                            style={{ cursor: "pointer", backgroundColor: "darkred", color: "azure" }}>
-                            Contact us
-          </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink
-                            className={classnames({ active: activeTab === '15' })}
-                            onClick={() => { toggle('15'); }}
-                            style={{ cursor: "pointer", backgroundColor: "darkred", color: "azure" }}>
-                            Future Goals
-          </NavLink>
+                            style={{ cursor: "pointer", backgroundColor: "azure", color: "black" }}>
+                            Contacts
+                        </NavLink>
                     </NavItem>
                 </Nav>
             </div>
             <TabContent activeTab={activeTab}>
-                <TabPane tabId="10">
+                <TabPane tabId="11">
+                    <Home />
                 </TabPane>
                 <TabPane tabId="12">
+                    <About />
                 </TabPane>
 
                 <TabPane tabId="13">
+                    <Projects />
                 </TabPane>
                 <TabPane tabId="14">
-                </TabPane>
-                <TabPane tabId="15">
+                    <Contacts />
                 </TabPane>
             </TabContent>
         </Container>

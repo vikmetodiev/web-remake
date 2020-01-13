@@ -10,4 +10,4 @@ function NarutoMain() {
         </Container>
     )
 }
-export default NarutoMainF
+export default NarutoMain
