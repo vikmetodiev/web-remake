@@ -87,6 +87,17 @@ code {
   margin:5px
 }
 
+.custom{
+  border-radius: 25px !important;
+  border: 2px solid red !important;
+  text-align: center !important;
+  font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif'!important;
+}
+
+.completed {
+  background-color:seagreen !important;
+}
+
 @media(max-width:1023px){
   .mediaFontSize{
     font-size:12px;

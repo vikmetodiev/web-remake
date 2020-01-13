@@ -133,7 +133,6 @@ class Trivia extends React.Component {
         current = 0;
         this.setState({
             current: current,
-            speed: 0
         })
 
         swal("Good job!", "You LOST, Try Again!", "success").then(function () {
@@ -202,7 +201,9 @@ class Trivia extends React.Component {
 
             }
             let cursorStyle = joker.disabled ? { color: "#856404", backgroundColor: "Khaki", borderRadius: 15 } : { cursor: "pointer", marginRight: 5, color: "#856404 ", backgroundColor: "Khaki ", borderRadius: 15 };
-            return <Button style={cursorStyle} disabled={joker.disabled} onClick={jokerClickHandler} id={btnId} key={btnId}>{btnId}</Button>
+            let theClass = []
+            let classes = joker.disabled ? theClass = ["onePieceButtons", "custom", "completed"] : theClass = ["onePieceButtons" ,"custom"]
+            return <Button className={theClass.join(' ')} style={cursorStyle} disabled={joker.disabled} onClick={jokerClickHandler} id={btnId} key={btnId}>{btnId}</Button>
 
         })
         return (

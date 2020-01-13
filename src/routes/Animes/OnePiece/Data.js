@@ -24,15 +24,14 @@ const Data = [{
     name:"Tony Tony Chopper",
     description:"L2 Raidboss",
     url:"./OnePieceImages/chopper.png",
-    info:"Baium is the last famous Emperor of Elmoreden, the creator of the Tower of Insolence, and the bringer of the Golden Age. He is also the father of Frintezza, the last Emperor, and of Saint Solina. The golden age of Elmoreden came about a thousand years after its establishment, during the reign of Emperor Baium. With great charisma and leadership skills, Baium created the strongest army in the history of the kingdom."
+    info: "Tony Tony Chopper, also known as 'Cotton Candy Lover' Chopper, is the doctor of the Straw Hat Pirates. Chopper is a reindeer that ate the Hito Hito no Mi which is a devil fruit that allows its user to transform into a human hybrid or a human at will. He came from Drum Island where he learned how to be a doctor, and is the first member of the Straw Hats who was born on the Grand Line. "    
 },
 {
     id:5,
     name:"Nami",
     description:"Seven Deadly Sins Captain",
     url:"./OnePieceImages/nami.png",
-    info:"Meliodas is the Dragon's Sin of Wrath and captain of the Seven Deadly Sins. He is the main protagonist of the series and was the owner of the renowned tavern Boar Hat. His Sacred Treasure is the Demon Sword Lostvayne and his inherent power is Full Counter. He was also the head of the Ten Commandments, as Meliodas the Love「慈愛のメリオダス Jiai no Meriodasu」and a former member of Stigma. He is the older brother of Zeldris and the eldest son of the Demon King."
-},
+    info:"'Cat Burglar' Nami is the navigator of the Straw Hat Pirates. She is the third member of the crew and the second to join, doing so during the Orange Town Arc. She is the adoptive sister of Nojiko after the two were orphaned and taken in by Bell-mère. She was formerly a member of the Arlong Pirates and initially joined the Straw Hats so she can rob them for her real crew in order to buy back her village from Arlong, but joined the Straw Hats for real after they rebelled against and defeated Arlong."},
 {
     id:6,
     name:"Niko Robin",
@@ -45,7 +44,7 @@ const Data = [{
     name:"Vinsmoke Sanji",
     description:"Supernatural Main character",
     url:"./OnePieceImages/sanji.jpg",
-    info:"'Black Leg' Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates, as well as the former sous chef of the Baratie. He is also the third son and fourth child of the Vinsmoke Family, thus making him a prince of the Germa Kingdom, until he officially disowned them twice. Despite Sanji renouncing his surname Vinsmoke, the World Government labels it as part of his name on his wanted poster",
+    info:"'Black Leg' Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates, as well as the former sous chef of the Baratie. He is also the third son and fourth child of the Vinsmoke Family,[25] thus making him a prince of the Germa Kingdom, until he officially disowned them twice. Despite Sanji renouncing his surname Vinsmoke, the World Government labels it as part of his name on his wanted poster"
 },
 {
     id:8,
